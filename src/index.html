@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function min (array) {
+            let minNum = 0;
+  for (let index = 0; index < array.length; index++) {
+    
+    if(array.length == 0)
+      minNum = 0;
+    if(minNum > array[index]) {
+      minNum = array[index];
+      console.log(minNum);
+    }
+    }
+  return minNum;
+}
+
+let array = [];
+console.log(array.length);
+</script>
+</body>
+</html>
